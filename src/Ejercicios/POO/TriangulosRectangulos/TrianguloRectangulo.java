@@ -4,7 +4,7 @@ public class TrianguloRectangulo {
     private int cateto1;
     private int cateto2;
 
-    public TrianguloRectangulo(int cateto1, int cateto2) {
+    public TrianguloRectangulo() {
         this.cateto1 = cateto1;
         this.cateto2 = cateto2;
     }
