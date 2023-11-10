@@ -6,5 +6,6 @@ public class TestTrianguloRectangulo {
         trianguloRectangulo.setCateto1(3);
         trianguloRectangulo.setCateto2(5);
         System.out.printf(trianguloRectangulo.toString());
+
     }
 }
