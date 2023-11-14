@@ -37,7 +37,7 @@ public class TestMatematicas {
         do {
             System.out.println("Introduce el primer numero");
             numero1 = scanner.nextInt();
-        }while (numero1>10);
+        }while (numero1>10 && numero1<0);
         do {
             System.out.println("Introduce el segundo numero");
             numero2 = scanner.nextInt();
