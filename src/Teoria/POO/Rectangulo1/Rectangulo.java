@@ -1,4 +1,4 @@
-package Teoria.POO.Rectangulo;
+package Teoria.POO.Rectangulo1;
 
 public class Rectangulo {
     //metodo de calculo de area

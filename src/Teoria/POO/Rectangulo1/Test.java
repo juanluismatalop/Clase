@@ -1,4 +1,4 @@
-package Teoria.POO.Rectangulo;
+package Teoria.POO.Rectangulo1;
 
 public class Test {
     public static void main(String[] args) {
