@@ -43,7 +43,6 @@ public class TestMatematicas {
             numero2 = scanner.nextInt();
         }while (numero2>10);
        int opcion;
-       Matematicas matematicas = new Matematicas();
        do {
            System.out.printf("1. Calcular el valor medio.%n2. Obtener el mayor valor.%n3. Obtener el menor valor.%n4. Salir%nINTRODUCE OPCIÒN:%n");
             opcion = scanner.nextInt();
