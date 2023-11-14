@@ -37,11 +37,11 @@ public class TestMatematicas {
         do {
             System.out.println("Introduce el primer numero");
             numero1 = scanner.nextInt();
-        }while (numero1>10 && numero1<0);
+        }while (numero1>10 || numero1<0);
         do {
             System.out.println("Introduce el segundo numero");
             numero2 = scanner.nextInt();
-        }while (numero2>10);
+        }while (numero2>10 || numero2<0);
        int opcion;
        do {
            System.out.printf("1. Calcular el valor medio.%n2. Obtener el mayor valor.%n3. Obtener el menor valor.%n4. Salir%nINTRODUCE OPCIÒN:%n");
