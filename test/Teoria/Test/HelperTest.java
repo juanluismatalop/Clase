@@ -1,5 +1,6 @@
 package Teoria.Test;
 
+import Programacion.Ejercicio.Ejercicios.Teoria.Test.Helper;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

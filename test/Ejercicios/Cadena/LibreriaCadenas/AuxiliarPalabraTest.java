@@ -1,5 +1,6 @@
 package Ejercicios.Cadena.LibreriaCadenas;
 
+import Programacion.Ejercicio.Ejercicios.Cadena.LibreriaCadenas.AuxiliarPalabra;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
