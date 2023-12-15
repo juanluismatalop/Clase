@@ -26,6 +26,14 @@ public class Ejemplo2 {
         System.out.println("===AÑADIR EN POSICION DE LA LISTA===");
         cambiarEnPosicion(enteros, 56, 7);
         System.out.println(enteros);
+        System.out.println("\n\n");
+        System.out.println("===CONTIENE VALOR===");
+        System.out.println(contieneValor(enteros, 5));
+        System.out.println("\n\n");
+        System.out.println("===ACTUALIZAMOS LA PRIMERA POSICION A 10===");
+        actualizar(enteros, 10, 0);
+        System.out.println(enteros);
+
     }
 
     private static List<Integer> crearListaTamanno(int tamanno) {
@@ -65,5 +73,12 @@ public class Ejemplo2 {
             return;
         }
         enteros.add(posicion, numero);
+    }
+    //Un metodo que se le pasauna coleccion de enteros, un entero y nos dice si contiene ese valor
+    private static  boolean contieneValor (List<Integer> enteros, Integer numero){
+        return enteros.contains(numero);
+    }
+    private static void actualizar(List<Integer> enteros, Integer numero, int index){
+        enteros.set(index, numero);
     }
 }
